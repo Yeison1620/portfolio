@@ -6,14 +6,20 @@
     background-size: cover;
 }
 
-#proyectos, #sobre-mi{
+#proyectos{
     font-family: 'Montserrat', sans-serif;
     background-image: url("..//images/fondo-proyectos.png");
     background-size: cover;
 }
 
+#sobre-mi{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
 h1{
     color: #E20000;
+    font-size: 35px;
 }
 .btn{
     color: #370a6d;
@@ -66,6 +72,12 @@ min-height:550px ;
 }
 footer{
     color: white;
+    display: block;
+}
+
+#sobre-mi footer{
+    color: #E20000;
+        font-weight: 100;
 }
 
 footer a{
@@ -138,4 +150,33 @@ footer .fa-linkedin-in{
     background-color: white;
     border-radius: 20px;
     
+}
+
+.img-perfil{
+    border-radius: 300px;
+    height: 250px;
+    width: 250px;
+}
+
+#stack{
+        background: rgb(125, 7, 7);
+        background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+        color: white;
+}
+
+#stack  .tecnologia{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#stack .tecnologia i{
+    font-size: 60px;
+    color: #282828;
+}
+
+#stack h3{
+    color: #282828;
+    font-size: 14px;
+    font-weight: 300;
 }
